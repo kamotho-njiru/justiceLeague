@@ -14,6 +14,11 @@ public class Squad {
         this.name= name;
         this.duty= duty;
 
+
     }
 
-}
+//    public static insertNewSquad(){
+//        return Squad;
+    }
+
+

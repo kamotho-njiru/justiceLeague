@@ -15,18 +15,9 @@ public Hero(String name, Integer age, String power ,String weakness) {
     this.weakness = weakness;
 }
 
-    public Hero(String vincent, int i, String unfit) {
-    }
-
-
     public String getName() {return this.name;}
     public int getAge(){return this.age;}
     public String getPower(){return this.power;}
     public String getWeakness(){return this.weakness;}
-    
-    
-   
-    public static Hero insertNewHero(){
-    return new Hero("Vincent",14,"predict the future", "unfit");
-    }
+
 }
