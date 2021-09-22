@@ -17,8 +17,7 @@ public class Squad {
 
     }
 
-//    public static insertNewSquad(){
-//        return Squad;
+
     }
 
 

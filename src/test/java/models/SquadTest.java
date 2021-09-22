@@ -10,16 +10,16 @@ public class SquadTest {
         assertEquals(4, newSquad.getMaxSize());
     }
 
-//    @Test
-//    public void newSquad_getName_String(){
-//        Squad newSquad= Squad.insertNewSquad();
-//        assertEquals("Titans", newSquad.getName());
-//    }
-//
-//    @Test
-//    public void newSquad_getSquad_String(){
-//        Squad newSquad= Squad.insertNewSquad();
-//        assertEquals("Protect and Serve", newSquad.getDuty());
+    @Test
+    public void newSquad_getName_String(){
+        Squad newSquad= new Squad('4', "Titans", "Protect and serve");
+        assertEquals("Titans", newSquad.getName());
+    }
+
+    @Test
+    public void newSquad_getSquad_String(){
+        Squad newSquad= new Squad('4', "Titans", "Protect and serve");
+        assertEquals("Protect and Serve", newSquad.getDuty());
 
     }
 
